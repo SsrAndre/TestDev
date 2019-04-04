@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
+* { /* Webkit serve para que o padding nao afete o tamanho do bloco*/
+	-webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+body {
+	background: #235488;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	margin: 50px auto 0;
+	text-align: center;
+    background-color: #01b3eb;
+    font-size: 35px;
+    width: 500px;
+    padding: 30px;
+    color: #fff;
+}
+h1 span {
+	display: block;
+	font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+form {
+	width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+}
+form label {
+	color: #d0d0d0;
+    font-size: 14px;
+    position: relative;
+    top: 9px;
+    left: 20px;
+    background: #fff;
+    padding: 0 5px;	
+}
+form input {
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #eee;
+    font-size: 16px;
+    margin-bottom: 15px;	
+}
+form button {
+	border: 0;
+    background: #58b217;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+}
